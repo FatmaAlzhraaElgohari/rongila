@@ -1,0 +1,55 @@
+body{
+}
+
+.container{
+    width: 60%;
+    margin:auto;
+    background-color: white;
+}
+
+/* start navbar */
+.navbar{
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Gayathri';
+
+    
+}
+.navbar h1{
+   float: left;
+    display: inline;
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    color: #FF8C00		;
+     letter-spacing: 1.5px;
+    font-weight: bold;
+
+}
+.navbar h1 spam{
+   font-size: 50px; 
+}
+.navbar ul{
+    list-style: none ;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+font-family: 'Nunito Sans'}
+.navbar ul li {
+    float: left;
+    padding:12px;
+        text-transform: uppercase;
+    font-size: 10.2px;
+
+}
+.navbar ul li a { 
+    color:dimgray;
+text-decoration: none;
+}
+.navbar ul li a:hover { 
+    color: #FF8C00; 
+}
+.navbar ul li.active a { 
+    color: #FF8C00; 
+}
+/* end navbar */
