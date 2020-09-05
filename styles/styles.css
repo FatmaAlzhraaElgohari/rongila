@@ -1,18 +1,26 @@
 body{
         background-color: #FAFAFA;
+        font-family: 'Syne', sans-serif;
+
 }
 
-.container{
-    width: 60%;
-    margin:auto;
-}
+
 
 /* start navbar */
 .navbar{
     overflow: hidden;
     font-weight: bold;
-font-family: 'Nunito Sans'}
-
+font-family: 'Nunito Sans';
+position: fixed;
+top:0;
+background-color: #FAFAFA;
+z-index: 9999;
+width: 100%; 
+    }
+.navbar .container{
+    width: 60%;
+    margin: auto;
+}
 .navbar h1{
    float: left;
     display: inline;
@@ -53,6 +61,10 @@ text-decoration: none;
 /* end navbar */
 
 /* start banner */
+.container{
+    width: 60%;
+    margin:auto;
+}
 .banner{
     overflow: hidden;
     padding-top: 30px;
@@ -109,6 +121,7 @@ padding-right: 30px;}
     background-color:#F0F0F0;
     font-family: 'Syne', sans-serif;
 line-height: 1.5;
+    padding-top: 20px;
 
 }
 .about .container{
@@ -222,6 +235,9 @@ border-color: dimgray;
     height: 550px;
     font-family: 'Syne', sans-serif;
 line-height: 1.5;
+    padding-bottom: 40px;
+        padding-top: 20px;
+
 
 }
 
@@ -272,6 +288,154 @@ margin-bottom: 0px;
     margin-bottom: 50px;
 }
 
+.service .ser {
+    width:31%;
+    margin:7px;
+    background-color: #F0F0F0 ;
+    height: 170px;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px ;
+    border-color :#cfcccc;
+      text-align: center;
+    color:dimgray;
+    position:relative; 
 
 
+}
+.service .ser:hover{
+  box-shadow: 0px 7px 11px rgba(33,33,33,.2); 
+}
+.service .ser .content{
+    position:absolute;
+    top:50%; 
+    margin-top:-25%;
+}
+.service .ser .fa {
+    color: #FB7C07;
+    background: #FAFAFA;
+    border-radius: 50%;
+  padding: 15px;
+}
+
+
+.service .ser .fa-desktop {
+    
+    color: #FAFAFA;
+    background: #FB7C07;
+   }
+.service .ser p{
+    font-size: 12px;
+    color:dimgray;
+    margin: 5px;
+
+}
+.service .ser p spam{
+    font-size: 10px;
+}
 /*end service */
+
+/* start numbers */
+
+.numbers{
+    height: 250px;
+    background-color:#F0F0F0;
+    font-family: 'Syne', sans-serif;
+line-height: 1.5;
+
+}
+.numbers .container{
+    width: 60%;
+    margin:auto;
+}
+
+.numbers .content{
+ 
+    
+}
+
+.numbers .sec{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+padding-top:60px;;    
+    
+}
+.numbers .sec .fa{
+    color: white;
+    background-color: #A0A0A0;
+    border-radius: 50%;
+    padding: 15px;
+}
+.numbers h1{
+    color: #FB7C07;
+    margin: 0px;
+}
+.numbers h4{
+    color:#A0A0A0;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+/* end numbers */
+
+/* start skills */
+
+.skills{
+    height: 550px;
+    font-family: 'Syne', sans-serif;
+line-height: 1.5;
+    padding-bottom: 40px;
+
+}
+
+.skills .container{
+    width: 60%;
+    margin:auto;
+}
+
+.skills h2{
+    text-align: center;
+    color:dimgray;
+    font-weight: bold;
+    font-family: 'Nunito Sans';
+font-size: 30px;
+        padding-top:50px;
+
+margin-bottom: 0px;
+}
+
+.skills .line {
+	border-top: 2px solid #FB7C07;
+	margin:  auto;
+    	width: 14%;
+	position: relative;
+}
+
+.skills .line:before, .line:after {
+	content: "";
+	width: 5px;
+	height: 5px;
+	background: #F0F0F0;
+	border-radius: 5px;
+    border-color: dimgray;
+	position: absolute;
+	top: -6px;
+    border:2px solid dimgray;
+}
+
+.skills .line:after {
+	right: 0;
+}
+.skills .linee {
+	border-top: 2px solid dimgray;
+	margin:  auto;
+    	width: 9%;
+	position: relative;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+
+
+/* end skills */
